@@ -1,0 +1,26 @@
+<Transport>
+  <TransportIs>
+    <DriverId>14</DriverId>
+    <CompanyName>ООО Типочки</CompanyName>
+    <CountPassangers>10</CountPassangers>
+    <TransportDescription>Маршрутка Газ NEXT Синего цвета</TransportDescription>
+  </TransportIs>
+  <TransportIs>
+    <DriverId>14</DriverId>
+    <CompanyName>ООО Типочки</CompanyName>
+    <CountPassangers>15</CountPassangers>
+    <TransportDescription>Маршрутка Газ Citiline Зеленого цвета</TransportDescription>
+  </TransportIs>
+  <TransportIs>
+    <DriverId>15</DriverId>
+    <CompanyName>ООО Типочки</CompanyName>
+    <CountPassangers>14</CountPassangers>
+    <TransportDescription>Маршрутка Газ Бизнес Кремового цвета</TransportDescription>
+  </TransportIs>
+  <TransportIs>
+    <DriverId>16</DriverId>
+    <CompanyName>ООО Типочки</CompanyName>
+    <CountPassangers>13</CountPassangers>
+    <TransportDescription>Маршрутка Газ Citilines Синего цвета</TransportDescription>
+  </TransportIs>
+</Transport>
