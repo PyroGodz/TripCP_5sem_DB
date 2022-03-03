@@ -71,7 +71,7 @@ exec [dbo].[AddNewTrip] 2, 'г. √родно ул. “ипок д. 68','2001-12-02 10:00:00', '2
 -------------------------Ticket-------------------------------
 select * from dbo.Trip
 ----------Parameters: trip Id, Price
-exec [dbo].[AddAutoTickets] 6, 300
+exec [dbo].[AddAutoTickets] 8, 300
 ----------Parameters: seat, price, tripId
 exec [dbo].[AddNewTicket] 1, 200, 1;
 exec [dbo].[AddNewTicket] 2, 200, 4;
@@ -94,9 +94,9 @@ exec [dbo].[SelectTrip] 4
 exec [dbo].[SelectTicket] 1
 -----------------Parameters: Id of ticket, Id of user
 --select * from Ticket
-exec [dbo].[BuyTicket] 3480364,1
-exec [dbo].[BuyTicket] 2,3
-exec [dbo].[BuyTicket] 3,3
+exec [dbo].[BuyTicket] 50,1
+exec [dbo].[BuyTicket] 40,3
+exec [dbo].[BuyTicket] 41,3
 
 -----------------Delete----------------------------------------
 exec [dbo].[DeleteUser] 2
